@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #8E0082;
+    color: #FFFFFF;
+}
+
+header h1 {
+    margin: 0 0 50px 0;
+    padding: 15px;
+    font-size: 25px;
+}
+
+.img-content {
+    width: 250px;
+    height: 250px;
+    background-color: #F4DFD4;
+    border: 4px solid #8E0082;
+    border-radius: 50%;
+    margin: 15px auto;
+}
+
+.img-content img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.p-content p {
+    font-size: 20px;
+    margin: 0 0 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #8E0082;
+}
+
+.content hr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 37%;
+    border: 1px solid #CCCCCC;
+}
+
+.text-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.text-content .sobre .title, .favoritos .title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.text-content .sobre .text, .favoritos .text {
+    text-align: center;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    color: #000;
+    font-size: 15px;
+    width: 100%;
+    height: 30px;
+    border: 1px solid #CCCCCC;
+}
+
+footer .pipe {
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: 20px;
+    color: #8E0082;
+}
