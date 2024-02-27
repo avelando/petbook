@@ -88,3 +88,70 @@ footer .pipe {
     font-size: 20px;
     color: #8E0082;
 }
+
+@media (max-width: 767px) and (min-width: 320px) {
+    .text-content {
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+
+    .text-content .sobre .title, .favoritos .title {
+        margin: 10px 0 10px 0;
+    }
+
+    .text-content .sobre .text, .favoritos .text {
+        margin: 0;
+    }
+
+    .content hr {
+        width: 50%;
+    }
+
+    .img-content {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+    .text-content {
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+
+    .text-content .sobre .title, .favoritos .title {
+        margin: 5px 0 5px 0;
+    }
+
+    .text-content .sobre .text, .favoritos .text {
+        margin: 0;
+    }
+
+    .content hr {
+        width: 50%;
+    }
+
+    .img-content {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media (min-width: 1025px) {
+    .text-content {
+        flex-direction: row;
+        margin-bottom: 50px;
+    }
+
+    .text-content .sobre .title, .favoritos .title {
+        margin: 15px 20px 0 20px;
+    }
+
+    .text-content .sobre .text, .favoritos .text {
+        margin: 15px 20px 0 20px;
+    }
+
+    .content hr {
+        width: 37%;
+    }
+}
