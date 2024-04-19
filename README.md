@@ -7,6 +7,6 @@
   </div>
 
   <div align="center">
-    <img width="500px" src="img/readme.png">
+    <img width="800px" src="img/readme.png">
   </div>
 </div>
